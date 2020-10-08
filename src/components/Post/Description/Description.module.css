@@ -1,0 +1,49 @@
+.Description {
+    margin: 0 7px;
+    margin-bottom: 8px;
+}
+
+.Description p {
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 9px;
+}
+.Description img:hover {
+    cursor: pointer;
+}
+
+.likes {
+    display: flex;
+    margin: 3px auto;
+}
+.likes p {
+    margin: auto 5px;
+    font-size: 10px;
+    color: rgba(0, 0, 0, .7);
+}
+
+/* Media requests */
+
+@media screen and (max-width: 992px) {
+    .Description {
+        margin-top: 15px;
+    }
+    .likes {
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .Description {
+        margin-top: 7px;
+    }
+    .likes p {
+        font-size: 9px;
+    }
+    .Description p {
+        font-size: 8px;
+    }
+    .likes {
+        margin-bottom: 3px;
+    }
+}

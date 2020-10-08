@@ -1,0 +1,22 @@
+.Content {
+    justify-content: center;
+    margin: 20px auto;
+    width: 680px;
+    column-width: 210px;
+}
+
+/* Media requests */
+
+@media screen and (max-width: 992px){
+    .Content {
+        column-width: auto;
+        width: 600px;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .Content {
+        width: 80%;
+    }
+}

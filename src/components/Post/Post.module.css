@@ -1,0 +1,50 @@
+.Post {  
+    display: inline-block;
+    border: 1px solid #cccccc;
+    box-shadow: 1px 1px 2px #cccccc;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    margin-bottom: 15px;
+    width: 210px;
+}
+
+.Post:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, .4);
+}
+
+.Photo {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    margin-top: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* Media requests */
+@media screen and (max-width: 992px){
+    .Post {
+        width: auto;
+        height: 280px;
+        padding: 0;
+        display: flex;
+    }
+    .Photo {
+        width: 50%;
+        height: auto;
+        right: 50%;
+        padding: 0;
+    }
+    .Info {
+        width: 100%;
+        padding: 0;
+        margin: 12px 12px;
+    }
+}
+@media screen and (max-width: 640px) {
+    .Post {
+        height: 40vw;
+    }
+}
